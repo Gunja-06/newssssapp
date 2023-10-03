@@ -3,7 +3,6 @@ import Navbar from "./component/navbar.js";
 import React, { Component } from "react";
 import News from "./component/news";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 export default class App extends Component {
   apiKey = "badd77bdb9384e9dade32a4408633e13";
   render() {
